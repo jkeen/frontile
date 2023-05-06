@@ -147,6 +147,7 @@ class NotificationCard extends Component<NotificationCardSignature> {
           }}
           class={{this.classes.base}}
           style="{{this.styles}}"
+          data-notification-id={{@notification.id}}
           ...attributes
         >
           <div class={{this.classes.message}}>
